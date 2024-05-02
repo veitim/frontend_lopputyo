@@ -74,6 +74,7 @@ function AddTraining(props) {
               name="duration"
               value={training.duration}
               onChange={handleInputChange}
+              type="number"
               label="Duration"
               fullWidth
               variant="standard"
